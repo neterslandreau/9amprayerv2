@@ -33,6 +33,23 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
 /**
+ * Helpers
+ *
+ * @var array
+ */
+ 	public $helpers = array(
+		// 'Facebook.Facebook',
+		'Goodies.AutoJavascript',
+		'Goodies.GoogleAnalytics',
+		'Goodies.Gravatar',
+		'Html',
+		'Form',
+		'Session',
+		'Js',
+		// 'Markdown.Markdown',
+	);
+
+/**
  * Constructor
  *
  * @param mixed $request
