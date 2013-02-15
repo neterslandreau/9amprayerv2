@@ -3,9 +3,13 @@ body {
 	color: #fff;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
 	font-size:13px;
-	width: 955px;
 	margin: 0 auto;
 }
+p {
+	text-align: left;
+}
+#map_canvas { height: 100% }
+
 #header {
 	padding: 10px 20px;
 	background: #4A196A;
@@ -17,7 +21,7 @@ body {
 	font-size: 200%;
     width:200px;
     text-align: right;
-	padding: 58px 70px;
+	padding: 55px 3%;
     vertical-align: text-top;
 }
 #header h1 a {
@@ -41,9 +45,8 @@ h3 {
 	background-color: #4a196a;
 }
 #topmenu {
-	width:95%;
-	clear:none;
-	margin-bottom:-5px;
+	margin-bottom: 1%;
+	margin-right: -60%;
 }
 #topmenu a {
 	text-decoration: none;
@@ -61,6 +64,18 @@ h3 {
 	clear:both;
 	padding: 0px 0px 0px 0px;
 	text-align:right; 
+}
+#content{
+	background: #fff;
+	clear: both;
+	color: #333;
+	padding: 10px 20px 40px 20px;
+	overflow: auto;
+}
+#footer {
+	clear: both;
+	padding: 6px 10px;
+	text-align: right;
 }
 .topmenu {
 	border-top:1px solid #E5BFFF;
@@ -107,4 +122,7 @@ h3 {
 	text-align: right;
 	font-weight: bold;
 	padding: 0px 0px 0px 0px;
+}
+.border-5 {
+	border: 5px #fff solid;
 }
