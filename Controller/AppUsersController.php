@@ -8,7 +8,6 @@ class AppUsersController extends UsersController {
 		parent::beforeFilter();
 		$this->User = ClassRegistry::init('AppUser');
 	}
-}
 /**
  *
  */
@@ -32,5 +31,7 @@ class AppUsersController extends UsersController {
 		return parent::render($view, $layout);
 	}
 	public function opauth_complete() {
+		$this->autoRender = false;
 		debug($this->data);
 	}
+}

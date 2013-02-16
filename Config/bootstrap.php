@@ -116,9 +116,9 @@ CakeLog::config('error', array(
 ));
 
 Configure::write('Opauth.Strategy.Facebook', array(
-	'app_id' => '208456629166634',
-	'app_secret' => '1dc2b0fd909a6f978325fe97b0ea7ea7',
-	'scope' => 'publish_stream, publish_actions, manage_pages',
+	'app_id' => '127762907399731',
+	'app_secret' => '12eb2bfaa46d6951ee5f336ee15b98fe',
+	'scope' => 'publish_stream, publish_actions',
 	'state' => 'mystring',
 ));
 Configure::write('Opauth.Strategy.Twitter', array(
