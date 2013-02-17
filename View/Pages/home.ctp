@@ -2,6 +2,8 @@
 <h2>9amPrayer.info</h2>
 */ ?>
 <?php $this->name = 'Home'; ?>
+<div class="mobile-grid-20">&nbsp;</div>
+<div class="mobile-grid-60">
 <div class="blessing">
 	<div class="blessing verse">
 		<?php
@@ -89,3 +91,5 @@ For thine is the kingdom, and the power, and the glory, for ever. Amen.
 //	echo $html->link('Encourage Us', 'mailto:9amprayer@think-knot.com?subject=I have prayed today'); 
 ?>
 </p>
+</div>
+<div class="mobile-grid-20">&nbsp;</div>

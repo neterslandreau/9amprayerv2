@@ -71,6 +71,14 @@ Cache::config('default', array('engine' => 'File'));
  *
  */
 CakePlugin::load('DebugKit');
+CakePlugin::load('Goodies');
+CakePlugin::load('Migrations');
+CakePlugin::load('Users');
+CakePlugin::load('Utils');
+CakePlugin::load('Tags');
+CakePlugin::load('Search');
+CakePlugin::load('Opauth', array('bootstrap' => true, 'routes' => true));
+
 /**
  * You can attach event listeners to the request lifecyle as Dispatcher Filter . By Default CakePHP bundles two filters:
  *
@@ -105,4 +113,19 @@ CakeLog::config('error', array(
 	'engine' => 'FileLog',
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
+));
+
+Configure::write('Opauth.Strategy.Facebook', array(
+	'app_id' => '127762907399731',
+	'app_secret' => '12eb2bfaa46d6951ee5f336ee15b98fe',
+	'scope' => 'publish_stream, publish_actions',
+	'state' => 'mystring',
+));
+Configure::write('Opauth.Strategy.Twitter', array(
+	'key' => '9ICOXrXObADMXxRfvm54mg',
+	'secret' => 'BZqqhQEu4KYSDaQawLZiPpge97xpPgrsYiy4qSdzU',
+));
+Configure::write('Opauth.Strategy.Google', array(
+	'client_id' => '500285393812.apps.googleusercontent.com',
+	'client_secret' => 'tQWjBTf4FAI9YyFsI4yV4ka7',
 ));
