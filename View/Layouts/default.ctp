@@ -35,7 +35,7 @@
 				<h1><?php echo $this->Html->link(__('9amPrayer', true), '/'); ?></h1>
 				<div class="mobile-grid-100"><?php echo $this->element('Layout/topmenu');?></div>
 			</div>
-			<div id="header-right" class="mobile-grid-35 border-5" style="background-color: #000;">Hola</div>
+			<div id="header-right" class="mobile-grid-35 border-5 dk-purple-background">Hola</div>
 		</div>
 		<div id="content" class="mobile-grid-100">
 			<?php $this->Session->flash(); ?>

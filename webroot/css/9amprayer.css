@@ -9,7 +9,24 @@ p {
 	text-align: left;
 }
 #map_canvas { height: 100% }
-
+.dk-purple-background {
+	background-color: #4A196A;
+}
+.lght-purple-font {
+	color: #E5BFFF;
+}
+.float-left {
+	float:left;
+}
+.bolder {
+	font-weight: bold;
+	font-size: 16px;
+}
+.citation {
+	font-size: 10px;
+	margin: 5px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
 #header {
 	padding: 10px 20px;
 	background: #4A196A;
