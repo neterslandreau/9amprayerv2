@@ -1,4 +1,5 @@
 <div id="topmenu_container">
+	<div style="float: left;">Blessed is the nation whose God is the Lord. - Psalms 33:12</div>
 	<div id="topmenu">
 	<?php if ($this->name !== 'Home') : ?>
 	<span class="topmenu">

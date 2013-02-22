@@ -4,24 +4,16 @@
 <?php $this->name = 'Home'; ?>
 <div class="mobile-grid-20">&nbsp;</div>
 <div class="mobile-grid-60">
-<div class="blessing">
-	<div class="blessing verse">
-		<?php
-			echo __('Blessed is the nation whose God is the Lord.');
-		?>
-	</div>
-	<div class="blessing citation">
-		Psalms 33:12
-	</div>
-</div>
-
 <h3>
 	<?php
 		echo __('Our Mission');
 	?>
 </h3>
 <p>
-	Our mission is to bring daily prayer to the consciousness of all individuals and to have prayer going to God in unison at 9am local time.
+	<?php 
+		echo __('Our mission is to bring daily prayer to the consciousness of all individuals and to
+			have prayer going to God in unison at 9am local time.');
+	?>
 </p>
 <h3>
 	<?php
