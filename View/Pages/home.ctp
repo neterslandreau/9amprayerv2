@@ -23,7 +23,7 @@
 <p>
 <?php
 	echo __('
-		We had a vision of the cloud of witnesses looking down on the earth
+		We envisioned the cloud of witnesses looking down on the earth
 		seeing the prayers of mankind rising to our Creator, and the thought 
 		occured to us, how marvelous it would be for those saints who preceded us to
 		see bursts of prayers along an entire longitude of the earth going
@@ -33,7 +33,6 @@
 	');
 ?>
 </p>
-<br />
 <p>
 <?php
 	echo __('
@@ -44,7 +43,6 @@
 	');
 ?>
 </p>
-<br />
 <p>
 <?php
 	echo __('
@@ -76,11 +74,6 @@ For thine is the kingdom, and the power, and the glory, for ever. Amen.
 <p>
 <?php 
 	echo __('If you are praying with us we would love to hear from you!');
-?>
-<br />
-<?php
-	// echo $mailto->mailto('9amprayer@think-knot.com', 'Contact Us');
-//	echo $html->link('Encourage Us', 'mailto:9amprayer@think-knot.com?subject=I have prayed today'); 
 ?>
 </p>
 </div>
