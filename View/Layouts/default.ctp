@@ -23,9 +23,6 @@
 			'core',
 			'gmap',
 			'jquery.earth3d',
-			'jquery.zrssfeed.min',
-			// 'unsemantic/adapt.min',
-			// 'unsemantic/demo',
 		));
 		echo $scripts_for_layout;
 	?>
