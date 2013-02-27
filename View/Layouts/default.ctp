@@ -20,8 +20,10 @@
 			'http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js',
 			'https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js',
 			'http://maps.google.com/maps/api/js?sensor=true',
+			'core',
 			'gmap',
 			'jquery.earth3d',
+			'jquery.zrssfeed.min',
 			// 'unsemantic/adapt.min',
 			// 'unsemantic/demo',
 		));
@@ -33,7 +35,7 @@
 		<div id="header" class="mobile-grid-100">
 			<div class="mobile-grid-65">
 				<h1><?php echo $this->Html->link(__('9amPrayer', true), '/'); ?></h1>
-				<div class="mobile-grid-100"><?php echo $this->element('Layout/topmenu');?></div>
+				<div class="mobile-grid-100"><?php echo $this->element('Layouts/topmenu');?></div>
 			</div>
 			<div id="header-right" class="mobile-grid-35 border-5 dk-purple-background">Hola</div>
 		</div>
@@ -43,10 +45,16 @@
 		</div>
 		<div id="footer">
 			<?php
-				echo $this->element('Layout/footer');
+				echo $this->element('Layouts/footer');
 			?>
 		</div>
 	</div>
-	<?php echo $this->element('Layout/google_analytics'); ?>
+<?php
+	echo $this->Html->scriptBlock('
+		App.basePath = "' . $this->Html->url('/') . '";
+		App.baseUrl = "' . $this->Html->url('/', true) . '";'
+	);
+	echo $this->element('Layouts/google_analytics');
+?>
 </body>
 </html>

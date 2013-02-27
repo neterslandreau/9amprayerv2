@@ -2,7 +2,11 @@
 <h2>9amPrayer.info</h2>
 */ ?>
 <?php $this->name = 'Home'; ?>
-<div class="mobile-grid-20">&nbsp;</div>
+<div class="mobile-grid-20">
+	<?php
+		echo $this->element('votd');
+	?>
+</div>
 <div class="mobile-grid-60">
 <h3>
 	<?php
