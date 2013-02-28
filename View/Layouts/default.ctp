@@ -33,7 +33,10 @@
 			<div class="mobile-grid-55">
 				<?php
 					echo $this->Html->link(
-						$this->Html->image('sml_coloredlogo.png', array('alt' => '9amPrayer', 'title' => 'Have you prayed today?')),
+						$this->Html->image('sml_coloredlogo.png', array(
+							'alt' => '9amPrayer',
+							'title' => 'Have you prayed today?',
+						)),
 						array(
 							'controller' => 'Pages',
 							'action' => 'display', 'home',

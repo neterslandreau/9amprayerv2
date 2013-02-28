@@ -106,6 +106,8 @@ h3 {
 	text-align: center;
 	font-weight: bold;
 	font-size: 130%;
+	background-color: rgb(234, 223, 235);
+	color: rgb(93, 70, 155);
 }
 .votd-citation {
 	font-weight: bold;
