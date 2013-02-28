@@ -32,13 +32,13 @@ p {
 	background: #4A196A;
 }
 #header h1 {
-	background: #4A196A url('../img/coleredlogo.png') no-repeat left;
+	background: #4A196A url('../img/sml_coloredlogo.png') no-repeat left;
 	color: #003d4c;
     font-weight: bold;
-	font-size: 200%;
-    width:200px;
+	font-size: 150%;
+    width: 130px;
     text-align: right;
-	padding: 65px 3%;
+	padding: 27px 3%;
     vertical-align: text-top;
 }
 #header h1 a {
