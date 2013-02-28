@@ -12,7 +12,7 @@
 			'unsemantic/demo',
 			'unsemantic/unsemantic-grid-base',
 			'unsemantic/unsemantic-grid-mobile',
-			'cake.generic',
+			// 'cake.generic',
 			'9amprayer'
 		));
 		echo $this->Html->script(array(
@@ -32,7 +32,15 @@
 		<div id="header" class="mobile-grid-100">
 			<div class="mobile-grid-55">
 				<?php
-					echo $this->Html->image('sml_coloredlogo.png');
+					echo $this->Html->link(
+						$this->Html->image('sml_coloredlogo.png', array('alt' => '9amPrayer', 'title' => 'Have you prayed today?')),
+						array(
+							'controller' => 'Pages',
+							'action' => 'display', 'home',
+							'plugin' => false,
+						),
+						array('escape' => false)
+					);
 				?>
 				<div class="mobile-grid-100"><?php echo $this->element('Layouts/topmenu');?></div>
 			</div>
