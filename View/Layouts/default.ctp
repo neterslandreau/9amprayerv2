@@ -30,16 +30,13 @@
 <body>
 	<div id="container" class="grid-container">
 		<div id="header" class="mobile-grid-100">
-			<div class="mobile-grid-65">
+			<div class="mobile-grid-55">
 				<?php
 					echo $this->Html->image('sml_coloredlogo.png');
 				?>
-<!-- 				<h1>
-					<?php echo $this->Html->link(__('9amPrayer', true), '/'); ?>
-				</h1>
- -->				<div class="mobile-grid-100"><?php echo $this->element('Layouts/topmenu');?></div>
+				<div class="mobile-grid-100"><?php echo $this->element('Layouts/topmenu');?></div>
 			</div>
-			<div id="header-right" class="mobile-grid-35 border-5 dk-purple-background">Hola</div>
+			<div id="header-right" class="mobile-grid-45 dk-purple-background">Hola</div>
 		</div>
 		<div id="content" class="mobile-grid-100">
 			<?php $this->Session->flash(); ?>
