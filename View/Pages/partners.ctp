@@ -37,3 +37,4 @@
 	</div>
 </div>
 <div class="mobile-grid-50" id="map_canvas" style="width: 50%; height: 300px;"></div>
+<div id="displayName" style="display: none;">partners</div>
