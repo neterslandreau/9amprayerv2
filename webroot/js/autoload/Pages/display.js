@@ -14,7 +14,7 @@ $(document).ready(function() {
 			$('#votd').append(
 				'<div class="votd-verse">'+description[0]+'</div>\n\
 				<div class="votd-citation">'+title[1]+'</div>\n\
-				<div class="votd-source"><a href="'+results.guid+'" target="_blank">More</a></div>'
+				<div class="votd-source"><a href="'+results.guid+'" target="_blank">Read more</a></div>'
 			);
 		});
 	}
